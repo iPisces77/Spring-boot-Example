@@ -1,0 +1,4 @@
+rootProject.name = 'Spring-boot-Example'
+include 'Spring-boot-Example-HelloWorld'
+include 'Spring-boot-Example-UnitTest'
+

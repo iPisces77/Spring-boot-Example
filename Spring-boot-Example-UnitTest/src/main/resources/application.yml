@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    password: 123456789
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: root
+test:
+  prop: testValue
+testcase:
+  book:
+    id: ${random.int}
+    id2: ${random.int(10)}
+    id3: ${random.int(5,10)}
+    name: ${random.value}
+    publishTime: ${random.long}
+    uuid: ${random.uuid}
